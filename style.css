@@ -1,0 +1,77 @@
+
+body {
+    background-image: url("background_main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Arial", serif;
+}
+a :hover {
+    background-color: lightgray;
+}
+
+h1 {
+    text-align: center;
+}
+.picture {
+    margin-top: 60px;
+    text-align: center;
+    font-family: "Brush Script MT", serif;
+    font-size: 40px;
+    color: black;
+}
+
+.picture img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -25px;
+    width: 300px;
+    border-radius: 135px;
+}
+
+.linkStyle {
+    color: darkslateblue;
+    font-size: large;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+table {
+    margin-left: 5%;
+    text-align: center;
+    background-color: slategrey;
+
+}
+
+tr:nth-child(odd) {
+    background-color: darkgray;
+}
+
+.grid {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto auto;
+    align-content: center;
+    margin-top: 100px;
+
+}
+.middle {
+    margin-left: 50px;
+}
+
+.left {
+    margin-left: -150px;
+}
+.left > p {
+    margin-left: -100px;
+    background: rgba(112, 128, 144, 0.6);
+}
+
+.right {
+    margin-top: -15px;
+    margin-right: -200px;
+}
+.bottom {
+    padding-top: 200px;
+}
